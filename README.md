@@ -1,16 +1,98 @@
-# React + Vite
+#  E-Commerce Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive e-commerce frontend built with **React** and **Vite**. The application provides a seamless shopping experience with product browsing, cart management, checkout, and order tracking through integration with a backend API.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Browse products
+- Add and remove items from the shopping cart
+- Update product quantities
+- Checkout workflow
+- Order history
+- Order tracking
+- Responsive design
+- Client-side routing with React Router
+- API integration using Axios
 
-## React Compiler
+##  Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- JavaScript (ES6+)
+- React Router
+- Axios
+- CSS3
+- Day.js
 
-## Expanding the ESLint configuration
+##  Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+├── assets/
+├── components/
+├── pages/
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone [https://github.com/yourusername/ecommerce-frontend.git](https://github.com/sindhutv/Ecommerce-Frontend)
+```
+
+Navigate to the project:
+
+```bash
+cd ecommerce-Project
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Features
+
+- Responsive user interface
+- Dynamic product listing
+- Shopping cart management
+- Checkout experience
+- Order tracking
+- Modular React components
+- Clean project architecture
+
+## Learning Outcomes
+
+This project helped me strengthen my understanding of:
+
+- React Functional Components
+- React Hooks
+- Component-based Architecture
+- React Router
+- API Integration with Axios
+- State Management
+- Responsive Web Design
+- Modern JavaScript (ES6+)
+
+## 🔗 Backend
+
+The backend for this project is available in a separate repository.
+
+https://github.com/sindhutv/Ecommerce-backend
+
+## Author
+
+Sindhu
+
+GitHub: https://github.com/sindhutv
